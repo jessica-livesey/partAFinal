@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Think Of A Number Game</title>
+        <link rel="stylesheet" href="all.css">
+        <link rel="stylesheet" href="thinkOfANumber2.css">
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Magra" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <header>
+            
+            <img src="paint3.jpg" width="202" height="178">
+        
+        </header>
+        
+        <nav>
+            
+            <ul class="topnav">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Games.html">Games</a></li> 
+            </ul>
+
+        </nav>
+        
+        
+        <div style="padding:0 16px;">
+            
+            <br>
+            <br>
+        
+            <fieldset class="field_set">
+                <legend>Please enter a number between 1 and 100</legend>
+                <div class="form">
+                    <br>
+                    <label for="guessField">Enter your guess: </label>
+                    <input type="text" id="guessField" class="guessField">
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" value="Guess" class="guessSubmit">
+                    <input type="submit" value="Restart" onClick="window.location.reload()">
+                    <br>
+                    <br>
+                </div>
+            </fieldset>
+            <fieldset class="field_set2">
+                <br>
+                <div class="resultParas">
+                    <span id="counter"></span>
+                    <p class="guesses"></p>
+                    <p class="lastResult"></p>
+                    <p class="lowOrHi"></p>
+                </div>
+                <br>
+            </fieldset>
+            <script src="thinkOfANumber2.js"></script>
+            
+        </div>
+    </body>
+
+</html>
